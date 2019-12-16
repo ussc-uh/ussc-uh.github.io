@@ -1,5 +1,4 @@
 <html>
-
 <head>
   <title>Card Game v2.0</title>
   <style type="text/css" media="screen">
@@ -20,7 +19,7 @@
 
     #felt div {
       position: absolute;
-      left: -140px;
+      left: -180px;
       top: 100px;
       z-index: 0;
       transition-property: left, top, -webkit-transform;
@@ -72,7 +71,7 @@
       with(cards[id].style) {
         zIndex = "1000";
         top = "100px";
-        left = "-140px";
+        left = "-180px";
         transform = "rotate(0deg)";
         zIndex = "0";
       }
@@ -161,7 +160,7 @@
       var newCard = card.cloneNode(true);
 
       newCard.fromtop = 15 + 120 * Math.floor(i/4);
-      newCard.fromleft = 70 + 100 * (i%4);
+      newCard.fromleft = 70 + 180 * (i%4);
       (function(idx) {
         newCard.addEventListener("click", function() { cardClick(idx); }, false);
       })(i);
