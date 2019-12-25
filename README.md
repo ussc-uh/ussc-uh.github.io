@@ -1,8 +1,7 @@
 ## Card Memory Game
 
-- 4X4 game: https://ussc-uh.github.io/
+- 4X5 game: https://ussc-uh.github.io/
 - 4X6 game: https://ussc-uh.github.io/game-1.html
-- 6X4 game: https://ussc-uh.github.io/game-2.html
 
 ## Code Structure
 
